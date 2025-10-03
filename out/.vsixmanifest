@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+    <Metadata>
+        <Identity Id="snippetx-vscode" Version="1.0.0" Publisher="your-publisher"/>
+        <DisplayName>SnippetX</DisplayName>
+        <Description xml:space="preserve">Intelligent code snippet manager for VS Code</Description>
+        <Categories>Other</Categories>
+        <Tags>snippet;code;save;organize;productivity</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+    </Installation>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension.json"/>
+    </Assets>
+</PackageManifest>

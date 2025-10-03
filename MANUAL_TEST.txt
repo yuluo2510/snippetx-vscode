@@ -1,0 +1,17 @@
+SNIPPIDX 手动测试步骤
+==============
+
+1. 验证扩展加载：
+   - 重启 VS Code
+   - Ctrl+Shift+P → "查看日志" → 查找 "SnippetX extension is now active!"
+
+2. 测试基本功能：
+   - 打开任意代码文件
+   - 选择任意文字
+   - Ctrl+Shift+S → 应显示保存确认
+   - Ctrl+Shift+L → 应显示搜索提示
+
+3. 完整验证：
+   - 侧边栏 "My Snippets" 已加载
+   - 所有命令在命令面板中可用
+   - 右键菜单显示 "Save Code Snippet"
